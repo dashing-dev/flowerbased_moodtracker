@@ -12,6 +12,7 @@ export const getMoodEntries = (): MoodEntry[] => {
   }
 };
 //
+//
 export const saveMoodEntries = (entries: MoodEntry[]): void => {
   try {
     localStorage.setItem(MOOD_ENTRIES_KEY, JSON.stringify(entries));
